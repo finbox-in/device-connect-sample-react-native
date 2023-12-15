@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "946069164115",
+    "project_id": "reactnativerisksample",
+    "storage_bucket": "reactnativerisksample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946069164115:android:d0206ed4d07736018276a6",
+        "android_client_info": {
+          "package_name": "com.reactnativerisksample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946069164115-f6cbnl7fgmbadhj3ts3fk2amb53l70s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE_N5BvcGC4tT1UsxAwS81U1KLJa9-qEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946069164115-f6cbnl7fgmbadhj3ts3fk2amb53l70s7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
