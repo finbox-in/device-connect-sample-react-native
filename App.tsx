@@ -21,7 +21,7 @@ import FinBoxRiskSdk from 'react-native-risk-sdk';
 
 import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
 
-const API_KEY = 'I9G9Js79et7ykyLCnFp279XxsJH85Jpu3d5E2Log';
+const API_KEY = '';
 const CUSTOMER_ID = 'demo_lender_15121157';
 
 function createUser() {
