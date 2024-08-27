@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		375477FC2C7DB0A1006B0619 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 375477FB2C7DB0A1006B0619 /* GoogleService-Info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		84C7206E9FF47981FF15A0E4 /* Pods_ReactNativeRiskSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E8EE1E76A59D743836721E /* Pods_ReactNativeRiskSample.framework */; };
 		DB6125CB170A73E2EA88899F /* Pods_ReactNativeRiskSample_ReactNativeRiskSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0263C538EE8DFFC5317FB635 /* Pods_ReactNativeRiskSample_ReactNativeRiskSampleTests.framework */; };
@@ -38,6 +39,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeRiskSample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeRiskSample/main.m; sourceTree = "<group>"; };
 		36E8EE1E76A59D743836721E /* Pods_ReactNativeRiskSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNativeRiskSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		375477FB2C7DB0A1006B0619 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ReactNativeRiskSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRiskSample.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeRiskSample/Pods-ReactNativeRiskSample.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ReactNativeRiskSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRiskSample.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeRiskSample/Pods-ReactNativeRiskSample.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ReactNativeRiskSample-ReactNativeRiskSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRiskSample-ReactNativeRiskSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeRiskSample-ReactNativeRiskSampleTests/Pods-ReactNativeRiskSample-ReactNativeRiskSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		13B07FAE1A68108700A75B9A /* ReactNativeRiskSample */ = {
 			isa = PBXGroup;
 			children = (
+				375477FB2C7DB0A1006B0619 /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -245,6 +248,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				375477FC2C7DB0A1006B0619 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,10 +632,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -709,10 +710,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
