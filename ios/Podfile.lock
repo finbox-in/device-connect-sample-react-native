@@ -1010,7 +1010,7 @@ PODS:
   - React-Mapbuffer (0.73.6):
     - glog
     - React-debug
-  - react-native-risk-sdk (0.3.4):
+  - react-native-risk-sdk (0.3.9):
     - React
     - RiskManager (= 0.2.4)
   - React-nativeconfig (0.73.6)
@@ -1418,7 +1418,7 @@ SPEC CHECKSUMS:
   React-jsinspector: 85583ef014ce53d731a98c66a0e24496f7a83066
   React-logger: 3eb80a977f0d9669468ef641a5e1fabbc50a09ec
   React-Mapbuffer: d81d930c1b7f4db284e1d721fe7fdc99230ca108
-  react-native-risk-sdk: 95916418e95e2bacf74ff50b2995a79acae26c3c
+  react-native-risk-sdk: 2f3640b2e23e4c42cf7622e90a7d4418760b2853
   React-nativeconfig: e700ac3ec3d66329076bd2c2787a204411815d43
   React-NativeModulesApple: f7fa541118d195ac850ca2ea460f338152ced167
   React-perflogger: 5f49905de275bac07ac7ea7f575a70611fa988f2
@@ -1445,6 +1445,6 @@ SPEC CHECKSUMS:
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 805bf71192903b20fc14babe48080582fee65a80
 
-PODFILE CHECKSUM: 72b11f033c2b287066afdb16fcada2fcfb94b13b
+PODFILE CHECKSUM: ce6800906561fbcf21c259d2aeec8070e367b1ee
 
 COCOAPODS: 1.15.2

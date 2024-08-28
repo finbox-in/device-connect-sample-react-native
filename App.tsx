@@ -8,6 +8,7 @@
 import React, { useEffect } from 'react';
 import {
   Button,
+  Text,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -19,10 +20,10 @@ import messaging from '@react-native-firebase/messaging';
 
 import FinBoxRiskSdk from 'react-native-risk-sdk';
 
-import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 const API_KEY = '';
-const CUSTOMER_ID = 'demo_lender_15121157';
+const CUSTOMER_ID = 'demo_lender_7281224';
 
 function createUser() {
   FinBoxRiskSdk.createUser(
@@ -66,15 +67,15 @@ function App(): JSX.Element {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <Header />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
+          <Text>{CUSTOMER_ID}</Text>
           <Button
             onPress={createUser}
             title="Create User"
-            color="#841584"
+            color="#007AFF"
             accessibilityLabel="Create User"
           />
         </View>
