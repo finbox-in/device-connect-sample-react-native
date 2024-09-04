@@ -15,7 +15,7 @@
     "react": "18.2.0",
     "react-native": "0.73.6",
     "react-native-gradle-plugin": "^0.71.19",
-    "react-native-risk-sdk": "^1.4.37"
+    "react-native-risk-sdk": "^1.4.38"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

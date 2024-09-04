@@ -1010,9 +1010,9 @@ PODS:
   - React-Mapbuffer (0.73.6):
     - glog
     - React-debug
-  - react-native-risk-sdk (0.3.9):
+  - react-native-risk-sdk (0.4.0):
     - React
-    - RiskManager (= 0.2.4)
+    - RiskManager (= 0.2.7)
   - React-nativeconfig (0.73.6)
   - React-NativeModulesApple (0.73.6):
     - glog
@@ -1180,7 +1180,7 @@ PODS:
     - React-jsi (= 0.73.6)
     - React-logger (= 0.73.6)
     - React-perflogger (= 0.73.6)
-  - RiskManager (0.2.4)
+  - RiskManager (0.2.7)
   - RNFBApp (18.9.0):
     - Firebase/CoreOnly (= 10.20.0)
     - React-Core
@@ -1418,7 +1418,7 @@ SPEC CHECKSUMS:
   React-jsinspector: 85583ef014ce53d731a98c66a0e24496f7a83066
   React-logger: 3eb80a977f0d9669468ef641a5e1fabbc50a09ec
   React-Mapbuffer: d81d930c1b7f4db284e1d721fe7fdc99230ca108
-  react-native-risk-sdk: 2f3640b2e23e4c42cf7622e90a7d4418760b2853
+  react-native-risk-sdk: 71d4bd6869b87ee1f0bee6da0e4527260988757e
   React-nativeconfig: e700ac3ec3d66329076bd2c2787a204411815d43
   React-NativeModulesApple: f7fa541118d195ac850ca2ea460f338152ced167
   React-perflogger: 5f49905de275bac07ac7ea7f575a70611fa988f2
@@ -1439,7 +1439,7 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 4fa81221f3bb96df737d682fa828b574bea3827c
   React-utils: a45dd70919baff681d43a4a457e9884ef96b4581
   ReactCommon: e168ee1704806f10f47ee8c7f825b5850b18eaea
-  RiskManager: 09aa15825274321a0c3c3005c09452df1c548858
+  RiskManager: 3e5c330feb0d233f4bd88cb6d4ad0006c69e4e61
   RNFBApp: 9b25191f7a5e72c185b7e43fffb0d906869c4659
   RNFBMessaging: 99621af036e0aa85506390f77d79c9e6353aacca
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
