@@ -14,6 +14,7 @@ import {
   StatusBar,
   useColorScheme,
   View,
+  Platform,
 } from 'react-native';
 
 import messaging from '@react-native-firebase/messaging';
@@ -21,11 +22,20 @@ import messaging from '@react-native-firebase/messaging';
 import FinBoxRiskSdk from 'react-native-risk-sdk';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
+import {request, PERMISSIONS} from 'react-native-permissions';
 
 const API_KEY = '';
 const CUSTOMER_ID = 'demo_lender_7281224';
 
 function createUser() {
+  const locationPermission = Platform.select({
+    ios: PERMISSIONS.IOS.LOCATION_WHEN_IN_USE,
+    android: PERMISSIONS.ANDROID.ACCESS_COARSE_LOCATION,
+  });
+  request(locationPermission).then(result => {
+    console.log('Permission granted', result);
+  });
+  // return granted === RESULTS.GRANTED;
   FinBoxRiskSdk.createUser(
     API_KEY,
     CUSTOMER_ID,
