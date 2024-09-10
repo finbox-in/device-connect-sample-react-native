@@ -1,6 +1,6 @@
 {
   "name": "ReactNativeRiskSample",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -15,7 +15,8 @@
     "react": "18.2.0",
     "react-native": "0.73.6",
     "react-native-gradle-plugin": "^0.71.19",
-    "react-native-risk-sdk": "^1.4.38"
+    "react-native-permissions": "^4.1.5",
+    "react-native-risk-sdk": "^1.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

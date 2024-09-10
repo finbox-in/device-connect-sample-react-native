@@ -25,17 +25,9 @@ import { Colors } from 'react-native/Libraries/NewAppScreen';
 import {request, PERMISSIONS} from 'react-native-permissions';
 
 const API_KEY = '';
-const CUSTOMER_ID = 'demo_lender_7281224';
+const CUSTOMER_ID = 'demo_lender_1091215';
 
 function createUser() {
-  const locationPermission = Platform.select({
-    ios: PERMISSIONS.IOS.LOCATION_WHEN_IN_USE,
-    android: PERMISSIONS.ANDROID.ACCESS_COARSE_LOCATION,
-  });
-  request(locationPermission).then(result => {
-    console.log('Permission granted', result);
-  });
-  // return granted === RESULTS.GRANTED;
   FinBoxRiskSdk.createUser(
     API_KEY,
     CUSTOMER_ID,
@@ -49,6 +41,17 @@ function createUser() {
       FinBoxRiskSdk.startPeriodicSync(12); //Start the sync periodically after every 12 hour
     },
   );
+}
+
+function requestPermissions() {
+  const locationPermission = Platform.select({
+    ios: PERMISSIONS.IOS.LOCATION_WHEN_IN_USE,
+    android: PERMISSIONS.ANDROID.ACCESS_COARSE_LOCATION,
+  });
+  request(locationPermission).then(result => {
+    console.log('Permission granted', result);
+    createUser();
+  });
 }
 
 function App(): JSX.Element {
@@ -83,7 +86,7 @@ function App(): JSX.Element {
           }}>
           <Text>{CUSTOMER_ID}</Text>
           <Button
-            onPress={createUser}
+            onPress={requestPermissions}
             title="Create User"
             color="#007AFF"
             accessibilityLabel="Create User"

@@ -1010,9 +1010,9 @@ PODS:
   - React-Mapbuffer (0.73.6):
     - glog
     - React-debug
-  - react-native-risk-sdk (0.4.0):
+  - react-native-risk-sdk (0.4.2):
     - React
-    - RiskManager (= 0.2.7)
+    - RiskManager (= 0.2.8)
   - React-nativeconfig (0.73.6)
   - React-NativeModulesApple (0.73.6):
     - glog
@@ -1180,7 +1180,7 @@ PODS:
     - React-jsi (= 0.73.6)
     - React-logger (= 0.73.6)
     - React-perflogger (= 0.73.6)
-  - RiskManager (0.2.7)
+  - RiskManager (0.2.8)
   - RNFBApp (18.9.0):
     - Firebase/CoreOnly (= 10.20.0)
     - React-Core
@@ -1189,6 +1189,8 @@ PODS:
     - FirebaseCoreExtension (= 10.20.0)
     - React-Core
     - RNFBApp
+  - RNPermissions (4.1.5):
+    - React-Core
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -1250,6 +1252,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBMessaging (from `../node_modules/@react-native-firebase/messaging`)"
+  - RNPermissions (from `../node_modules/react-native-permissions`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1373,6 +1376,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-firebase/app"
   RNFBMessaging:
     :path: "../node_modules/@react-native-firebase/messaging"
+  RNPermissions:
+    :path: "../node_modules/react-native-permissions"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1418,7 +1423,7 @@ SPEC CHECKSUMS:
   React-jsinspector: 85583ef014ce53d731a98c66a0e24496f7a83066
   React-logger: 3eb80a977f0d9669468ef641a5e1fabbc50a09ec
   React-Mapbuffer: d81d930c1b7f4db284e1d721fe7fdc99230ca108
-  react-native-risk-sdk: 71d4bd6869b87ee1f0bee6da0e4527260988757e
+  react-native-risk-sdk: 9a95d4bdc6e7f6e5a2c7c1618db506ee61ed772f
   React-nativeconfig: e700ac3ec3d66329076bd2c2787a204411815d43
   React-NativeModulesApple: f7fa541118d195ac850ca2ea460f338152ced167
   React-perflogger: 5f49905de275bac07ac7ea7f575a70611fa988f2
@@ -1439,12 +1444,13 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 4fa81221f3bb96df737d682fa828b574bea3827c
   React-utils: a45dd70919baff681d43a4a457e9884ef96b4581
   ReactCommon: e168ee1704806f10f47ee8c7f825b5850b18eaea
-  RiskManager: 3e5c330feb0d233f4bd88cb6d4ad0006c69e4e61
+  RiskManager: 3e982c484a3719e7b6a664796d03770d254e9c95
   RNFBApp: 9b25191f7a5e72c185b7e43fffb0d906869c4659
   RNFBMessaging: 99621af036e0aa85506390f77d79c9e6353aacca
+  RNPermissions: 655678c54391137c08a833d54f7adbcfc13f0f27
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 805bf71192903b20fc14babe48080582fee65a80
 
-PODFILE CHECKSUM: ce6800906561fbcf21c259d2aeec8070e367b1ee
+PODFILE CHECKSUM: b40749ee184a511e6908dd085eb1900182a48e4d
 
 COCOAPODS: 1.15.2
