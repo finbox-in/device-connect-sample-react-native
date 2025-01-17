@@ -25,7 +25,7 @@ import { Colors } from 'react-native/Libraries/NewAppScreen';
 import {request, PERMISSIONS} from 'react-native-permissions';
 
 const API_KEY = '';
-const CUSTOMER_ID = 'demo_lender_1091215';
+const CUSTOMER_ID = 'demo_lender_1171440';
 
 function createUser() {
   FinBoxRiskSdk.createUser(
