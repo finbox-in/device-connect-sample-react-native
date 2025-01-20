@@ -12,9 +12,16 @@ Add the following values to `local.properties`
 ACCESS_KEY=<ACCESS_KEY>
 SECRET_KEY=<SECRET_KEY>
 DC_SDK_VERSION=<DC_SDK_VERSION>
+DC_FLAVOR=<DC_FLAVOR>
 COMMON_SDK_VERSION=<COMMON_SDK_VERSION>
 COMMON_FLAVOR=<COMMON_FLAVOR>
 LOGGER_SDK_VERSION=<LOGGER_SDK_VERSION>
+```
+
+Add the following values to `xcode.env`
+
+```environment
+DC_SDK_VERSION=<DC_SDK_VERSION>
 ```
 
 ### Update API Key
