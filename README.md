@@ -1,4 +1,4 @@
-# React Native Sample
+# DeviceConnect: React Native Sample
 
 This is sample implementation of the DeviceConnect React Native SDK
 
