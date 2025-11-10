@@ -1,6 +1,12 @@
 # DeviceConnect: React Native Sample
 
-This is sample implementation of the DeviceConnect React Native SDK
+This is sample implementation of the **DeviceConnect React Native SDK**.
+Supports both Android & iOS.
+
+## DeviceConnect SDK
+FinBox DeviceConnect is an SDK that seamlessly integrates into lenders' frontend apps/websites, facilitating secure data sharing and providing valuable predictive insights to support informed decision-making.
+
+Available on ![NPM](https://www.npmjs.com/package/react-native-risk-sdk)
 
 ## Setup
 
