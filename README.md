@@ -18,7 +18,7 @@ COMMON_FLAVOR=<COMMON_FLAVOR>
 LOGGER_SDK_VERSION=<LOGGER_SDK_VERSION>
 ```
 
-Add the following values to `xcode.env`
+Add the following values to `.xcode.env`
 
 ```environment
 DC_SDK_VERSION=<DC_SDK_VERSION>
